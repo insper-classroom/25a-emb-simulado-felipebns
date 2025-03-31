@@ -72,7 +72,7 @@ int main() {
     gpio_set_irq_enabled(X_PIN_DIREITA, (GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL), true);
 
     while (true) {
-        sleep_ms(1000);
+        sleep_ms(100);
 
         gpio_put(Y_PIN_ESQUERDA, 1);
         gpio_put(Y_PIN_DIREITA, 1);
