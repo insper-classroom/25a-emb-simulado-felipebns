@@ -99,7 +99,7 @@ int main() {
             echo_esquerda = 0;
             dt = end_us_esquerda - start_us_esquerda; 
             int distancia_1 = (int) ((dt * 0.0343) / 2.0);
-            printf("Sensor 1 - dist: %dcm \n",distancia_1);
+            printf("Sensor 1 - dist: %d cm \n",distancia_1);
         }
 
         if (timer_fired_direita) {
@@ -109,7 +109,7 @@ int main() {
             echo_direita = 0;
             dt2 = end_us_direita - start_us_direita; 
             int distancia_2 = (int) ((dt2 * 0.0343) / 2.0);
-            printf("Sensor 2 - dist: %dcm \n",distancia_2);
+            printf("Sensor 2 - dist: %d cm \n",distancia_2);
         }
     }
 }
